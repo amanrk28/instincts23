@@ -47,10 +47,10 @@ export const Events = ({ clubName, eventDetails }: Children) => {
   const [selecteId, setSelectedId] = useState(0);
   return (
     <>
-    <div className="w-full mt-20 flex justify-center items-center">
+    <div className="w-full mt-20 sm:mt-10 sm:p-0 sm:mt-0 flex justify-center items-center">
       {eventDetails.clubs.map((item)=>{
         return(
-          <div className="mx-auto p-4 lg:p-8">
+          <div className="mx-auto p-4 sm:p-2 lg:p-8">
           <Image
             src={"/images/clubs/"+item.imgsrc}
             alt={"elc"}
@@ -63,7 +63,7 @@ export const Events = ({ clubName, eventDetails }: Children) => {
       })}
       </div>
       <div className="lg:ml-2 flex flex-wrap flex-row min-h-[70vh] pb-10 items-center justify-center ">
-        <div className="lg:flex-1 sm:w-[95%] md:w-[95%] mt-5 flex lg:flex-col  items-center sm:justify-center md:justify-center lg:justify-evenly  py-10  pr-1 pl-5 lg:min-h-[70vh] sm:min-h-fit md:min-h-fit shadow-2xl text-white sm:flex-row flex-wrap">
+        <div className="lg:flex-1 sm:w-[95%] md:w-[95%] mt-5 sm:py-5 sm:my-0 sm:px-5 flex lg:flex-col  items-center sm:justify-center md:justify-center lg:justify-evenly  py-10  pr-1 pl-5 lg:min-h-[70vh] sm:min-h-fit md:min-h-fit shadow-2xl text-white sm:flex-row flex-wrap">
           {eventDetails.events.map((item, index) => (
             <div
               key={item.eventNames}
@@ -83,7 +83,7 @@ export const Events = ({ clubName, eventDetails }: Children) => {
             </div>
           ))}
         </div>
-        <div className="clubs clubitem rounded-lg sm:mb-10 bg-gradient-to-r from-[#ae8141] to-gray-800 bg-blend-color-dodge p-10 lg:min-h-[70vh] md:min-h-fit lg:w-[74%] sm:w-[95%] md:w-[95%] mt-5 flex-wrap">
+        <div className="clubs clubitem rounded-lg sm:mb-10 sm:p-3 bg-gradient-to-r from-[#ae8141] to-gray-800 bg-blend-color-dodge p-10 lg:min-h-[70vh] md:min-h-fit lg:w-[74%] sm:w-[95%] md:w-[95%] mt-5 flex-wrap">
           <h3 className="mb-4 text-3xl font-bold text-left text-white font-title">
             {eventDetails.events[selecteId].eventNames}
           </h3>
