@@ -35,8 +35,22 @@ body {
 .shimmer {
   text-align: center;
   color: rgb(65, 28, 14, 0.1);
-  background: -webkit-gradient(linear, left top, right top, from(#411c0e), to(#411c0e), color-stop(0.5, #fff));
-  background: gradient(linear, left top, right top, from(#411c0e), to(#411c0e), color-stop(0.1, #fff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#411c0e),
+    to(#411c0e),
+    color-stop(0.5, #fff)
+  );
+  background: gradient(
+    linear,
+    left top,
+    right top,
+    from(#411c0e),
+    to(#411c0e),
+    color-stop(0.1, #fff)
+  );
   background-size: 125px 100%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -58,15 +72,15 @@ body {
   }
 }
 
-.clubitem{
+.clubitem {
   animation: dropin 0.35s;
 }
 
 @keyframes dropin {
-  0%{
+  0% {
     transform: scale(0);
   }
-  100%{
+  100% {
     transform: scale(1);
   }
 }
@@ -77,8 +91,8 @@ body {
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
-  color: #7E5936;
-  border: 2px solid #7E5936;
+  color: #7e5936;
+  border: 2px solid #7e5936;
   cursor: pointer;
   position: relative;
   background-color: rgba(0, 0, 0, 0);
@@ -260,4 +274,8 @@ body {
   letter-spacing: 5px;
   margin: 10px 0 0 0;
   font-weight: normal;
+}
+
+.btn-color {
+  background: linear-gradient(to right, #ae8141, #1f2937);
 }
