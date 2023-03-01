@@ -271,6 +271,7 @@ const gradientStyle = {
 export const options: ApexOptions = {
   legend: {
     show: false,
+    floating: true,
   },
   chart: {
     type: "rangeBar",

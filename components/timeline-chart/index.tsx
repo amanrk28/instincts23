@@ -7,7 +7,13 @@ const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 export const TimelineChart = ({ data }: { data: ApexOptions["series"] }) => {
   return (
     <main className="m-auto">
-      <Chart options={options} series={data} type="rangeBar" width={800} />
+      <Chart
+        options={options}
+        series={data}
+        type="rangeBar"
+        width={"100%"}
+        height={500}
+      />
     </main>
   );
 };
