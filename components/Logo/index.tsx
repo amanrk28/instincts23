@@ -33,41 +33,76 @@ export const CollegeLogo = () => {
         <div className="absolute text-white top-3 right-10 sm:text-xl md:text-2xl">
           <div className="relative right-30 top-2">
             <Link
+<<<<<<< Updated upstream
               href="/events"
               className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+=======
+              href="/"
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+>>>>>>> Stashed changes
             >
               Events
             </Link>
             <Link
               href="/about"
+<<<<<<< Updated upstream
               className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+=======
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+>>>>>>> Stashed changes
             >
               About
             </Link>
             <Link
               href="/schedule"
+<<<<<<< Updated upstream
               className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+=======
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+>>>>>>> Stashed changes
             >
               Schedule
             </Link>
             <Link
+<<<<<<< Updated upstream
               href="/contact"
               className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+=======
+              href="/events"
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+>>>>>>> Stashed changes
             >
               Contact
             </Link>
             <Link
               href="/sponsors"
+<<<<<<< Updated upstream
               className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+=======
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+>>>>>>> Stashed changes
             >
               Sponsors
             </Link>
             <Link
               href="/gallery"
+<<<<<<< Updated upstream
               className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
             >
               Gallery
             </Link>
+=======
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+            >
+              Gallery
+            </Link>
+            <Link
+              href="/contact"
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+            >
+              Contact Us
+            </Link>
+>>>>>>> Stashed changes
           </div>
         </div>
       </div>
