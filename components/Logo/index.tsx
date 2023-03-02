@@ -27,43 +27,43 @@ export const CollegeLogo = () => {
           <div className="relative right-30 top-2">
             <Link
               href="/"
-              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               About
             </Link>
             <Link
               href="/schedule"
-              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Schedule
             </Link>
             <Link
               href="/events"
-              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Events
             </Link>
             <Link
               href="/sponsors"
-              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Sponsors
             </Link>
             <Link
               href="/gallery"
-              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Gallery
             </Link>
             <Link
               href="/contact"
-              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+              className="hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Contact Us
             </Link>
