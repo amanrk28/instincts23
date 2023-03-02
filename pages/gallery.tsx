@@ -26,7 +26,6 @@ export default function Events() {
                 src={"/images/instincts/instincts2.jpg"}
                 alt="ssnsnucinstincts"
                 className="img"
-
               />
             </div>
             <div className="image">
@@ -34,7 +33,6 @@ export default function Events() {
                 src={"/images/instincts/instincts3.jpg"}
                 alt="ssnsnucinstincts"
                 className="img"
-
               />
             </div>
             <div className="image">

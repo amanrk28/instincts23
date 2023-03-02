@@ -84,7 +84,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
     <>
       {modalIsOpen ? <div
       >
-        <Registration closeModal={closeModal} form={<iframe className="mt-20 w-ful md:w-70vw bg-white rounded-lg" src={eventDetails.events[selecteId].form} width="640" height="2064">Loading…</iframe>} />
+        <Registration closeModal={closeModal} form={<iframe className="mt-20 w-ful md:w-70vw bg-white rounded-lg" src={eventDetails.events[selecteId].form} width="640" height="1764">Loading…</iframe>} />
       </div> :
         <>
           <div className="w-full mt-20 flex justify-center items-center">

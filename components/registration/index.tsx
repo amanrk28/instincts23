@@ -11,9 +11,14 @@ type Children = {
 export const Registration = ({ form, closeModal }: Children) => {
   return (
     <>
-    <div className="flex justify-center items-center w-full">{form}</div>
-      <br/>
-      <button className="button" onClick={()=>{
+      <div className="flex justify-center items-center w-full">{form}</div>
+      <br />
+      <div className="w-full flex justify-center mt-[-1rem]">
+        <a href="https://rzp.io/l/INSTINCTS-2023">
+          <button className="button">Payment</button>
+        </a>
+      </div>
+      <button className="button" onClick={() => {
         closeModal();
       }}>Back</button>
     </>
