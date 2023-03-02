@@ -106,8 +106,8 @@ export const smOptions: ApexOptions = {
   yaxis: {
     labels: {
       style: {
-        ...axisStyle,
-        fontSize: "14px",
+        fontSize: "17px",
+        colors: "#fff",
       },
     },
   },
@@ -132,8 +132,8 @@ export const xsOptions = {
   yaxis: {
     labels: {
       style: {
-        ...axisStyle,
-        fontSize: "12px",
+        fontSize: "17px",
+        colors: "#fff",
       },
     },
   },
