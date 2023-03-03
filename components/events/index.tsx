@@ -240,7 +240,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                 </a>
               )}
               <br />
-              {/* <div className="relative top-[30px] mt-10 flex justify-center">
+              <div className="relative top-[30px] mt-10 flex justify-center">
                 {eventDetails.events[selecteId].form ?
                   <button
                     className="neon-button mt-10 !text-white"
@@ -249,7 +249,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                     Register
                   </button>
                   : null}
-              </div> */}
+              </div>
             </div>
           </div>
         </>
