@@ -48,7 +48,6 @@ export default function Events() {
                 src={"/images/instincts/instincts2.jpg"}
                 alt="Singer Andrea Jeremiah performing on previous cultural event"
                 className="img"
-
               />
             </div>
             <div className="image">
@@ -56,7 +55,6 @@ export default function Events() {
                 src={"/images/instincts/instincts3.jpg"}
                 alt="Actor Jeyam Ravi observing events on stage"
                 className="img"
-
               />
             </div>
             <div className="image">
